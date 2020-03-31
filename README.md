@@ -63,6 +63,24 @@ If you love this plugin, please star it on [GitHub](https://github.com/wode49039
 - [Releases](https://github.com/wode490390/VanillaCommands/releases)
 - [Snapshots](https://circleci.com/gh/wode490390/VanillaCommands)
 
+## Permissions
+| Command | Alias | Permission | Default |
+| - | - | - | - |
+| /clear | | vanillacommand.clear | OP |
+| /clone | | vanillacommand.clone | OP |
+| /daylock | /alwaysday | vanillacommand.daylock | OP |
+| /fill | | vanillacommand.fill | OP |
+| /playsound | | vanillacommand.playsound | OP |
+| /replaceitem | | vanillacommand.replaceitem | OP |
+| /setblock | | vanillacommand.setblock | OP |
+| /setmaxplayers | | vanillacommand.setmaxplayers | OP |
+| /spreadplayers | | vanillacommand.spreadplayers | OP |
+| /stopsound | | vanillacommand.stopsound | OP |
+| /testforblock | | vanillacommand.testforblock | OP |
+| /testforblocks | | vanillacommand.testforblocks | OP |
+| /testfor | | vanillacommand.testfor | OP |
+| /toggledownfall | | vanillacommand.toggledownfall | OP |
+
 ## Compiling
 1. Install [Maven](https://maven.apache.org/).
 2. Run `mvn clean package`. The compiled JAR can be found in the `target/` directory.
