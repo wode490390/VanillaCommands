@@ -1,0 +1,52 @@
+main: "cn.wode490390.nukkit.vcmd.VanillaCommands"
+name: "VanillaCommands"
+description: "VanillaCommands plugin for Nukkit"
+author: "wode490390"
+website: "http://wode490390.cn/"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: "POSTWORLD"
+
+permissions:
+  vanillacommand.clear:
+    description: "Allows a player to use /clear"
+    default: op
+  vanillacommand.clone:
+    description: "Allows a player to use /clone"
+    default: op
+  vanillacommand.daylock:
+    description: "Allows a player to use /daylock"
+    default: op
+  vanillacommand.fill:
+    description: "Allows a player to use /fill"
+    default: op
+  vanillacommand.playsound:
+    description: "Allows a player to use /playsound"
+    default: op
+  vanillacommand.replaceitem:
+    description: "Allows a player to use /replaceitem"
+    default: op
+  vanillacommand.setblock:
+    description: "Allows a player to use /setblock"
+    default: op
+  vanillacommand.setmaxplayers:
+    description: "Allows a player to use /setmaxplayers"
+    default: op
+  vanillacommand.spreadplayers:
+    description: "Allows a player to use /spreadplayers"
+    default: op
+  vanillacommand.stopsound:
+    description: "Allows a player to use /stopsound"
+    default: op
+  vanillacommand.testforblock:
+    description: "Allows a player to use /testforblock"
+    default: op
+  vanillacommand.testforblocks:
+    description: "Allows a player to use /testforblocks"
+    default: op
+  vanillacommand.testfor:
+    description: "Allows a player to use /testfor"
+    default: op
+  vanillacommand.toggledownfall:
+    description: "Allows a player to use /toggledownfall"
+    default: op
