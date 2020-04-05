@@ -7,7 +7,7 @@
     <groupId>cn.wode490390.nukkit</groupId>
     <artifactId>vanillacommands</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>VanillaCommands</name>
     <description>VanillaCommands plugin for Nukkit</description>
     <url>http://wode490390.cn/</url>

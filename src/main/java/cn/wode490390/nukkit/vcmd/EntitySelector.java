@@ -137,20 +137,15 @@ public final class EntitySelector {
     }
 
     private static List<Level> getLevels(CommandSender sender, Map<String, String> argumentMap) {
-        List<Level> worlds = Lists.newArrayList();
+        List<Level> levels = Lists.newArrayList();
 
-        /*if (hasLevelArgument(argumentMap) && sender instanceof Position) {
-            worlds.add(((Position) sender).getLevel());
+        if (hasLevelArgument(argumentMap) && sender instanceof Position) {
+            levels.add(((Position) sender).getLevel());
         } else {
-            worlds.addAll(sender.getServer().getLevels().values());
-        }*/
-        if (sender instanceof Position) {
-            worlds.add(((Position) sender).getLevel());
-        } else {
-            worlds.add(sender.getServer().getDefaultLevel());
+            levels.addAll(sender.getServer().getLevels().values());
         }
 
-        return worlds;
+        return levels;
     }
 
     private static boolean isEntityTypeValid(Map<String, String> params) {
