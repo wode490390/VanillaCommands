@@ -6,11 +6,11 @@
 <!--[![Servers](https://img.shields.io/bstats/servers/6884)](https://bstats.org/plugin/bukkit/VanillaCommands/6884)
 [![Players](https://img.shields.io/bstats/players/6884)](https://bstats.org/plugin/bukkit/VanillaCommands/6884)-->
 
-This plugin is used to add missing vanilla commands in [Nukkit](https://github.com/NukkitX/Nukkit) server.
+This plugin is used to add missing Minecraft: Bedrock Edition vanilla commands to [Nukkit](https://github.com/NukkitX/Nukkit) servers.
 
-If you found any bugs or have any suggestions, please open an issue on [GitHub Issues](https://github.com/wode490390/VanillaCommands/issues).
+If you found any bugs or have any suggestions, please open an issue on [GitHub](https://github.com/wode490390/VanillaCommands/issues).
 
-If you love this plugin, please star it on [GitHub](https://github.com/wode490390/VanillaCommands).
+If you like this plugin, please star it on [GitHub](https://github.com/wode490390/VanillaCommands).
 
 ## Features
 - [ ] Commands
@@ -57,7 +57,7 @@ If you love this plugin, please star it on [GitHub](https://github.com/wode49039
     - [X] `y`
     - [X] `z`
 
-*Note: Only [legacy IDs](https://minecraft.gamepedia.com/Bedrock_Edition_data_values) (number) can be used in this plugin.*
+*Note: Only [legacy IDs](https://minecraft.gamepedia.com/Bedrock_Edition_data_values) (numbers) can be used in this plugin.*
 
 ## Download
 - [Releases](https://github.com/wode490390/VanillaCommands/releases)
@@ -87,8 +87,8 @@ If you love this plugin, please star it on [GitHub](https://github.com/wode49039
 
 ## Metrics Collection
 
-This plugin uses [bStats](https://github.com/wode490390/bStats-Nukkit) - you can opt out using the global bStats config, see the [official website](https://bstats.org/getting-started) for more details.
+This plugin uses [bStats](https://github.com/wode490390/bStats-Nukkit). You can opt out using the global bStats config; see the [official website](https://bstats.org/getting-started) for more details.
 
 <!--[![Metrics](https://bstats.org/signatures/bukkit/VanillaCommands.svg)](https://bstats.org/plugin/bukkit/VanillaCommands/6884)-->
 
-###### If I have any grammar and terms error, please correct my wrong :)
+###### If I have any grammar and/or term errors, please correct them :)
